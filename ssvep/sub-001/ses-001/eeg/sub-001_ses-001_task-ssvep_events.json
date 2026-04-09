@@ -1,0 +1,25 @@
+{
+    "onset": {
+        "LongName": "Event onset time",
+        "Description": "Onset time of the event in seconds from recording start",
+        "Units": "s"
+    },
+    "duration": {
+        "LongName": "Event duration",
+        "Description": "Duration of the event in seconds",
+        "Units": "s"
+    },
+    "trial_type": {
+        "LongName": "Trial type",
+        "Description": "Type of trial condition",
+        "Levels": {
+            "flicker": "Visual flicker stimulation at specified frequency",
+            "rest": "Rest period with no stimulation"
+        }
+    },
+    "stim_frequency": {
+        "LongName": "Stimulation frequency",
+        "Description": "Frequency of the visual flicker stimulus in Hz",
+        "Units": "Hz"
+    }
+}

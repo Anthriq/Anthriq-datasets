@@ -1,0 +1,33 @@
+{
+    "Name": "SSVEP EEG Dataset",
+    "BIDSVersion": "1.8.0",
+    "DatasetType": "raw",
+    "License": "CC0",
+    "Authors": [
+        "Anthriq Team"
+    ],
+    "GeneratedBy": [
+        {
+            "Name": "Manual BIDS conversion",
+            "Version": "1.0.0"
+        }
+    ],
+    "SourceDatasets": [
+        {
+            "URL": "n/a"
+        }
+    ],
+    "HowToAcknowledge": "Please cite this dataset if used in your research.",
+    "EEGSystem": {
+        "Manufacturer": "Anthriq",
+        "BoardID": "Nex-Dev-00370",
+        "BoardVersion": "v27",
+        "ElectrodeType": "dry",
+        "SamplingRate": 2000,
+        "FilterCutoffHz": 40
+    },
+    "DAQSystem": {
+        "Type": "nidaq",
+        "Device": "NIDAQ-USB6008"
+    }
+}

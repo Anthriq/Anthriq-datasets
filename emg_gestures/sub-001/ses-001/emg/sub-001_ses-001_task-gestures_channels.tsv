@@ -1,0 +1,13 @@
+name	type	units	sampling_frequency	low_cutoff	high_cutoff	status	status_description
+ch1	EMG	uV	1000	0.5	450	good	Cz position on armband
+ch2	EMG	uV	1000	0.5	450	good	O1 position on armband
+ch3	EMG	uV	1000	0.5	450	good	T5 position on armband
+ch4	EMG	uV	1000	0.5	450	good	P3 position on armband
+ch5	EMG	uV	1000	0.5	450	good	Fz position on armband
+ch6	EMG	uV	1000	0.5	450	good	T3 position on armband
+ch7	EMG	uV	1000	0.5	450	good	Fp1 position on armband
+ch8	EMG	uV	1000	0.5	450	good	F3 position on armband
+TRIG1	TRIG	n/a	1000	n/a	n/a	good	Digital trigger 1
+TRIG2	TRIG	n/a	1000	n/a	n/a	good	Digital trigger 2
+TRIG3	TRIG	n/a	1000	n/a	n/a	good	Digital trigger 3
+TRIG4	TRIG	n/a	1000	n/a	n/a	good	Digital trigger 4

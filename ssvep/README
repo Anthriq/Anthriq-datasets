@@ -1,0 +1,39 @@
+SSVEP EEG Dataset
+=================
+
+Description
+-----------
+This dataset contains EEG recordings during a Steady-State Visual Evoked Potential (SSVEP)
+flicker paradigm. Participants viewed flickering visual stimuli at specific frequencies
+(13 Hz and 17 Hz) to elicit frequency-tagged neural responses in occipital cortex.
+
+Equipment
+---------
+- EEG System: Nexstem (Board ID: Nex-Dev-00370, v27)
+- DAQ: NI-DAQ USB-6008
+- Sampling Rate: 2000 Hz
+- Electrode Type: Dry electrodes
+- EEG Channels: O1, O2 (occipital)
+- Reference: Cz
+- Ground: T7
+- DRL: T8
+
+Data Processing
+---------------
+Raw CSV files are provided without preprocessing.
+
+Paradigm
+--------
+- Flicker frequencies: 13 Hz and 17 Hz
+- Test condition: Visual flicker stimulation for 20 seconds
+- Rest condition: No stimulation for 10 seconds
+- Number of trials: 6 (alternating frequencies)
+- Total paradigm duration: ~180 seconds
+
+Recording Location
+------------------
+Anthriq Lab
+
+Contact
+-------
+Anthriq 

@@ -1,0 +1,14 @@
+{
+    "EEGCoordinateSystem": "CapTrak",
+    "EEGCoordinateUnits": "m",
+    "EEGCoordinateSystemDescription": "Standard 10-20 electrode positions estimated from template head model",
+    "FiducialsDescription": "Fiducials not recorded for this dataset",
+    "AnatomicalLandmarkCoordinates": {
+        "NAS": [0, 0.0871, 0],
+        "LPA": [-0.0707, 0, -0.0071],
+        "RPA": [0.0707, 0, -0.0071]
+    },
+    "AnatomicalLandmarkCoordinateSystem": "CapTrak",
+    "AnatomicalLandmarkCoordinateUnits": "m",
+    "AnatomicalLandmarkCoordinateSystemDescription": "Estimated positions based on standard 10-20 template"
+}

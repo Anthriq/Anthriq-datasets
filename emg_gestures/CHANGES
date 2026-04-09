@@ -1,0 +1,5 @@
+1.0.0 2026-01-27
+  - Initial BIDS conversion from raw data
+  - Added EMG data for 1 participant (sub-001)
+  - 12 runs of gesture recordings
+  - Gestures: baseline, extension, flexion, victory

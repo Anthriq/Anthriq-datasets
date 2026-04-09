@@ -1,0 +1,41 @@
+EMG Gestures Dataset
+====================
+
+Description
+-----------
+This dataset contains EMG recordings during hand gesture tasks. Participants performed
+various hand gestures including baseline (rest), extension, flexion, and victory signs.
+
+Equipment
+---------
+- EMG System: Anthriq Armband
+- Sampling Rate: 1000 Hz (estimated)
+- Electrode Type: Dry electrodes
+- EMG Channels: 8 channels (armband configuration)
+- Channel Locations: Cz, O1, T5, P3, Fz, T3, Fp1, F3 (10-20 positions on forearm)
+
+Data Processing
+---------------
+Raw CSV files are provided without preprocessing.
+<!-- For preprocessed data, filters applied: [0.5-450] Hz bandpass, 50 Hz notch filter. -->
+
+Gestures
+--------
+- baseline: Rest position (gesture ID 0)
+- extension: Hand extension (gesture ID 1)
+- flexion: Hand flexion
+- victory: Victory sign (gesture ID 6)
+
+Recording Protocol
+------------------
+- Multiple trials per gesture
+- Each recording is approximately 20 seconds
+- 12 runs total
+
+Recording Location
+------------------
+Anthriq Lab
+
+Contact
+-------
+Anthriq 

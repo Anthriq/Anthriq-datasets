@@ -1,0 +1,7 @@
+name	type	units	sampling_frequency	low_cutoff	high_cutoff	reference	status	status_description
+O1	EEG	uV	2000	0.1	40	Cz	good	n/a
+O2	EEG	uV	2000	0.1	40	Cz	good	n/a
+Trial	TRIG	n/a	2000	n/a	n/a	n/a	good	Trial start/end marker
+Condition	TRIG	n/a	2000	n/a	n/a	n/a	good	Condition marker
+Action	TRIG	n/a	2000	n/a	n/a	n/a	good	Action marker
+Stimulus	TRIG	n/a	2000	n/a	n/a	n/a	good	Stimulus marker

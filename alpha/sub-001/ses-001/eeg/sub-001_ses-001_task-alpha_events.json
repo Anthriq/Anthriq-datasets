@@ -1,0 +1,28 @@
+{
+    "onset": {
+        "LongName": "Event onset time",
+        "Description": "Onset time of the event in seconds from recording start",
+        "Units": "s"
+    },
+    "duration": {
+        "LongName": "Event duration",
+        "Description": "Duration of the event in seconds",
+        "Units": "s"
+    },
+    "trial_type": {
+        "LongName": "Trial type",
+        "Description": "Type of trial condition",
+        "Levels": {
+            "eyes_closed": "Eyes closed condition to elicit alpha rhythm",
+            "eyes_open": "Eyes open rest condition"
+        }
+    },
+    "value": {
+        "LongName": "Event value",
+        "Description": "Numeric code for the event type",
+        "Levels": {
+            "1": "eyes_closed",
+            "2": "eyes_open"
+        }
+    }
+}

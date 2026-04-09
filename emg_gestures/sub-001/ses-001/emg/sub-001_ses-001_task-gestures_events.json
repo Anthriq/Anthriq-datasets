@@ -1,0 +1,32 @@
+{
+    "onset": {
+        "LongName": "Event onset time",
+        "Description": "Onset time of the event in seconds from recording start",
+        "Units": "s"
+    },
+    "duration": {
+        "LongName": "Event duration",
+        "Description": "Duration of the event in seconds",
+        "Units": "s"
+    },
+    "trial_type": {
+        "LongName": "Gesture type",
+        "Description": "Type of hand gesture performed",
+        "Levels": {
+            "baseline": "Rest position, no gesture",
+            "extension": "Hand extension gesture",
+            "flexion": "Hand flexion gesture",
+            "victory": "Victory sign gesture"
+        }
+    },
+    "gesture_id": {
+        "LongName": "Gesture identifier",
+        "Description": "Numeric code for the gesture type",
+        "Levels": {
+            "0": "baseline",
+            "1": "extension",
+            "2": "flexion",
+            "6": "victory"
+        }
+    }
+}

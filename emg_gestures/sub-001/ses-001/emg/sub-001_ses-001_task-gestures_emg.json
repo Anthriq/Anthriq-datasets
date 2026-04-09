@@ -1,0 +1,33 @@
+{
+    "TaskName": "gestures",
+    "TaskDescription": "Hand gesture recognition task with EMG recording from forearm muscles",
+    "Instructions": "Perform the indicated hand gesture and hold for the duration of the recording",
+    "InstitutionName": "Nexstem",
+    "InstitutionAddress": "India",
+    "InstitutionalDepartmentName": "Nexstem Lab",
+    "Manufacturer": "Nexstem",
+    "ManufacturersModelName": "Armband EMG",
+    "SamplingFrequency": 1000,
+    "PowerLineFrequency": 50,
+    "EMGChannelCount": 8,
+    "EMGReference": "CMS",
+    "EMGGround": "DRL",
+    "EMGPlacementScheme": "Armband around forearm",
+    "RecordingType": "continuous",
+    "SoftwareFilters": "n/a",
+    "HardwareFilters": {
+        "BandpassFilter": {
+            "LowCutoffFrequency": 0.5,
+            "HighCutoffFrequency": 450
+        },
+        "NotchFilter": {
+            "CenterFrequency": 50
+        }
+    },
+    "SubjectArtefactDescription": "none",
+    "StimulusPresentation": {
+        "OperatingSystem": "Windows",
+        "SoftwareName": "Custom recording software",
+        "SoftwareVersion": "1.0"
+    }
+}

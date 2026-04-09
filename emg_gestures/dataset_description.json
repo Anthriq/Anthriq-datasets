@@ -1,0 +1,21 @@
+{
+    "Name": "EMG Gestures Dataset",
+    "BIDSVersion": "1.8.0",
+    "DatasetType": "raw",
+    "License": "CC0",
+    "Authors": [
+        "Anthriq Team"
+    ],
+    "GeneratedBy": [
+        {
+            "Name": "Manual BIDS conversion",
+            "Version": "1.0.0"
+        }
+    ],
+    "SourceDatasets": [
+        {
+            "URL": "n/a"
+        }
+    ],
+    "HowToAcknowledge": "Please cite this dataset if used in your research."
+}

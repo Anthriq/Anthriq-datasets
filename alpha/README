@@ -1,0 +1,38 @@
+Alpha EEG Dataset
+=================
+
+Description
+-----------
+This dataset contains EEG recordings during an eyes-open/eyes-closed alpha rhythm paradigm.
+Participants alternated between 30-second eyes-closed periods (to elicit alpha oscillations)
+and 10-second eyes-open rest periods for 3 trials.
+
+Equipment
+---------
+- EEG System: Nexstem (Board ID: Nex-Dev-00370, v27)
+- DAQ: NI-DAQ USB-6008
+- Sampling Rate: 1000 Hz
+- Electrode Type: Dry electrodes
+- EEG Channels: O1, O2 (occipital)
+- Reference: Cz
+- Ground: T7
+- DRL: T8
+
+Data Processing
+---------------
+Raw CSV files are provided without preprocessing.
+
+Paradigm
+--------
+- Test condition: Eyes closed for 30 seconds
+- Rest condition: Eyes open for 10 seconds
+- Number of trials: 3
+- Total paradigm duration: ~120 seconds
+
+Recording Location
+------------------
+Anthriq Lab
+
+Contact
+-------
+Anthriq 

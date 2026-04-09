@@ -1,0 +1,71 @@
+{
+    "TaskName": "ssvep",
+    "TaskDescription": "Steady-State Visual Evoked Potential paradigm with flickering visual stimuli at 13 Hz and 17 Hz",
+    "Instructions": "Focus on the flickering stimulus during test periods and relax during rest periods",
+    "InstitutionName": "Anthriq",
+    "InstitutionAddress": "India",
+    "InstitutionalDepartmentName": "Anthriq Lab",
+    "Manufacturer": "Anthriq",
+    "ManufacturersModelName": "Nex-Dev-00370",
+    "SoftwareVersions": "v27",
+    "DeviceSerialNumber": "Nex-Dev-00370",
+    "SamplingFrequency": 2000,
+    "PowerLineFrequency": 50,
+    "EEGReference": "Cz",
+    "EEGGround": "T7",
+    "EEGPlacementScheme": "10-20",
+    "CapManufacturer": "Anthriq",
+    "CapManufacturersModelName": "Dry electrode cap",
+    "EEGChannelCount": 2,
+    "EOGChannelCount": 0,
+    "ECGChannelCount": 0,
+    "EMGChannelCount": 0,
+    "MISCChannelCount": 0,
+    "TriggerChannelCount": 4,
+    "RecordingType": "continuous",
+    "RecordingDuration": 229.46,
+    "SoftwareFilters": {
+        "HighpassFilter": {"CutoffFrequency": 0.1}
+    },
+    "HardwareFilters": {
+        "LowpassFilter": {"CutoffFrequency": 40}
+    },
+    "SubjectArtefactDescription": "none",
+    "CogAtlasID": "https://www.cognitiveatlas.org/task/id/trm_4c8991d2bbc08",
+    "CogPOID": "http://wiki.cogpo.org/index.php?title=SSVEP",
+    "StimulusPresentation": {
+        "OperatingSystem": "Windows",
+        "SoftwareName": "Custom Python script",
+        "SoftwareVersion": "1.0",
+        "ScreenRefreshRate": 60
+    },
+    "DAQSystem": {
+        "Type": "nidaq",
+        "Device": "NIDAQ-USB6008",
+        "DeviceName": "Dev2",
+        "BitsDepth": 12,
+        "ADCRange": [-10.0, 10.0],
+        "LSBValueVolts": 0.0048828125,
+        "AnalogInputChannels": [0, 1],
+        "DigitalInputChannels": [0, 1, 2, 3]
+    },
+    "AmplifierSettings": {
+        "Gain1": 20,
+        "Gain2": 100,
+        "TotalEEGGain": 2000,
+        "CMSDRLGain": 0,
+        "PGASetting": 1,
+        "CMSComposition": "Ch1+Ch2+Ref",
+        "DRLComposition": "CMS Out",
+        "DRLElectrode": "T8"
+    },
+    "ParadigmParameters": {
+        "TestDuration": 20.0,
+        "RestDuration": 10.0,
+        "InterTrialInterval": 0.0,
+        "NumberOfTrials": 3,
+        "TrialDuration": 30.0,
+        "FlickerFrequencies": [13.0, 17.0],
+        "Fullscreen": true
+    }
+}

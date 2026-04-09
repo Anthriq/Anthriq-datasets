@@ -1,0 +1,7 @@
+onset	duration	trial_type	value
+0	30	eyes_closed	1
+30	10	eyes_open	2
+40	30	eyes_closed	1
+70	10	eyes_open	2
+80	30	eyes_closed	1
+110	10	eyes_open	2

@@ -1,0 +1,4 @@
+1.0.0 2026-01-27
+  - Initial BIDS conversion from raw data
+  - Added EEG data for 1 participant (sub-001)
+  - SSVEP flicker paradigm with 13 Hz and 17 Hz stimulation
